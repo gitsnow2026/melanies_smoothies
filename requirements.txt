@@ -7,14 +7,14 @@ streamlit
 # If a package repository server is not reachable and the pyproject.toml file has not been modified, the app will fall back to the default version of the Streamlit library.
 
 #[project]
-name = "streamlit-app"
-requires-python = ">= 3.11"
-version = "0.0.1"
-description = ""
-dependencies = [
-    "streamlit[snowflake]"
-]
+#name = "streamlit-app"
+#requires-python = ">= 3.11"
+#version = "0.0.1"
+#description = ""
+#dependencies = [
+#    "streamlit[snowflake]"
+#]
 
-[tool.uv]
+#[tool.uv]
 # earlier versions of numba require a python version < 3.11
-constraint-dependencies = ["numba>=0.56.0"]
+#constraint-dependencies = ["numba>=0.56.0"]
